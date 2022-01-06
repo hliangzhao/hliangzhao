@@ -45,3 +45,11 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: no
+          plugin_pagespeed_url: .user.website
+          plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
