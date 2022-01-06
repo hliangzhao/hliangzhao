@@ -47,6 +47,7 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_screenshot: no
           plugin_pagespeed_url: .user.website
           plugin_topics: yes
